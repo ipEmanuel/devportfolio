@@ -1,125 +1,238 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Currículum - Emanuel Infante</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <meta name="description" content="Currículum de Emanuel Infante - Desarrollador Web Full Stack">
+
+  <!-- Open Graph (importante si lo compartís) -->
+  <meta property="og:title" content="CV - Emanuel Infante">
+  <meta property="og:description" content="Experiencia, habilidades y proyectos como desarrollador web">
+  <meta property="og:image" content="img/icono-0.png">
+  <meta property="og:type" content="website">
+
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Icono -->
+  <link rel="icon" type="image/png" href="img/icono-0.png">
+
+  <title>CV - Emanuel Infante</title>
 </head>
 
-<body>
-    <section class="cv-section">
-        <div id="particles-js"></div>      
+<body class="contenedor-full contenedor ">
+  <main class="cv-main">    
+    <header class="cv-header">        
+      <div >
+        <a href="index.html"><h1 class="cv-color-pri cv-h1">Emanuel Infante</h1></a>
+        <p class="cv-p">Desarrollador .NET | C# | ASP.NET | SQL Server</p>
+        <div class="cv-centrar">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin w-4 h-4 text-primary/70 cv-color-pri" aria-hidden="true">
+            <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+            <circle cx="12" cy="10" r="3"></circle>
+          </svg>
+          <span class="cv-color-g">Argentina</span>
+          <span class="cv-color-pri cv-gap-l cv-gap-r">|</span>
+          <span class="cv-color-g">Disponible para trabajo junior</span>            
+        </div>      
+      </div>
+    </header>  
+   
+    <section class="cv-espaciado">    
+      <div>                
+          <span class="cv-badge">C#</span>
+          <span class="cv-badge">ASP.NET Core</span>
+          <span class="cv-badge">SQL Server</span>
+          <span class="cv-badge">Entity Framework</span>
+          <span class="cv-badge">HTML</span>
+          <span class="cv-badge">CSS</span>
+          <span class="cv-badge">JavaScript</span>
+      </div>    
+    </section>
         
-        <div class="cv-border">
-            <div class="cv-profile">
-                <a href="index.html"><img src="img/img-01.png" alt="Perfil" class="cv-image"></a>
-                <div class="cv-profile-text">
-                    <h1 class="cv-title">Emanuel Infante</h1>
-                    <p class="cv-text">Desarrollador Independiente y Estudiante de Programación</p>
-                </div>
-                
-            </div>
+    <section class="cv-espaciado">
+      <div>
+        <h2 class="cv-h2 cv-upper-text">Proyecto destacado</h2>
+      <div>
+      <div class="cv-card">
 
+       
+          <div>
+            <div>
+              <h3 class="cv-h3">Sistema de Gestión de Clientes (CAPATUR)</h3>
+              <p class="cv-p cv-color-g">Desarrollador Full Stack</p>
+            </div>
+          </div>
+          <p class="cv-p cv-color-g">Aplicación web desarrollada para digitalizar la gestión de clientes en un entorno real.</p>
+          <ul class="cv-color-w">
+            <li><span class="cv-color-pri cv-gap-r">—</span>Desarrollo con ASP.NET Core y Entity Framework</li>
+            <li><span class="cv-color-pri cv-gap-r">—</span>Implementación de autenticación con Identity</li>
+            <li><span class="cv-color-pri cv-gap-r">—</span>CRUD completo de clientes</li>
+            <li><span class="cv-color-pri cv-gap-r">—</span>Persistencia de datos con SQL Server</li>
+          </ul>
+          <a class="cv-button" href="https://github.com/ipEmanuel/ProyectoCRUD" target="_blank" rel="noopener noreferrer" >
+            Ver proyecto
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link w-4 h-4" aria-hidden="true">
+              <path d="M15 3h6v6"></path>
+              <path d="M10 14 21 3"></path>
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+            </svg>
+          </a>
+        
+      </div>
+    </section>
             
-            <div class="cv-block">
-                <h2 class="cv-title">Perfil Profesional</h2>
-                <p class="cv-text">Soy un desarrollador independiente con experiencia en front-end y back-end, apasionado
-                    por el diseño web y el desarrollo de aplicaciones. Me encanta combinar la creatividad con la tecnología
-                    para crear soluciones innovadoras.</p>
-            </div>
-    
-            <div class="cv-block">
-                <h2 class="cv-title">Educación</h2>
-                <ul class="cv-list">
-                    <li class="cv-list-item">Tecnico Superior en Analisis y Desarrollo de Sistemas - CENT 40</li>
-                    <li class="cv-list-item">Tecnicatura Universitaria en Programación - UTN</li>
-                    <li class="cv-list-item">Curso de Desarrollo Web Full Stack - Código Con Juan en Udemy</li>
-                    <li class="cv-list-item">Curso C# Nivel 1 (Desde Cero) - Maxiprograma</li>
-                    <li class="cv-list-item">Curso C# Nivel 2 [.Net + SQL] - Maxiprograma</li>
-                    <li class="cv-list-item">Curso UX UI Design + Diseño Web y Mobile - Espacio UX - Javier Cañas</li>
-                </ul>
-            </div>
-    
-            <div class="cv-block">
-                <h2 class="cv-title">Experiencia</h2>
-                <ul class="cv-list">
-                    <li class="cv-list-item">Desarrollador Freelance en Proyectos Web - 2022 a la fecha</li>
-                    <li class="cv-list-item">Tatuador Profesional, aplicando habilidades creativas y de detalle - 2021 a la
-                        fecha</li>
-                </ul>
-            </div>
-    
-            <div class="cv-block">
-                <h2 class="cv-title">Habilidades</h2>
-                <ul class="cv-list">
-                    <li class="cv-list-item">HTML, CSS, JavaScript, C# (WinForms, ASP.NET)</li>
-                    <li class="cv-list-item">SQL, Bases de Datos y Normalización</li>
-                    <li class="cv-list-item">Diseño Responsive y UX/UI</li>
-                </ul>
+    <section class="cv-espaciado">
+      <div>
+        <h2 class="cv-upper-text cv-h2">Experiencia</h2>
+      </div>
+      <div>       
+        <div class="cv-horizontal">
+          <h3 class="cv-h3">Desarrollador Full Stack</h3>
+          <span class="cv-color-g">2024 - Actualidad</span>
+        </div>
+        <p class="cv-p cv-color-g">Proyectos</p>
+        <ul class="cv-color-w">
+          <li><span class="cv-color-pri cv-gap-r">—</span>Desarrollo de aplicaciones web con C# y ASP.NET</li>
+          <li><span class="cv-color-pri cv-gap-r">—</span>Implementación de bases de datos relacionales</li>
+          <li><span class="cv-color-pri cv-gap-r">—</span>Diseño y desarrollo de interfaces web responsive</li>
+          <li><span class="cv-color-pri cv-gap-r">—</span>Gestión completa de proyectos desde cero</li>
+        </ul>         
+      </div>            
+    </section>
+          
+    <section class="cv-espaciado">
+        <div>
+          <h2 class="cv-upper-text cv-espaciado cv-h2">Habilidades</h2>
+        <div>
+
+        <div class="cv-color-w ">
+            <div class="cv-habilidades">    
+                <div class="col">
+                    <div>
+                      <span class="cv-color-pri">Lenguajes: </span>
+                      <span>C#, JavaScript</span>
+                    </div>
+
+                    <div>
+                      <span class="cv-color-pri">Bases de datos: </span>
+                      <span>SQL Server</span>
+                    </div>
+
+                    <div>
+                      <span class="cv-color-pri">Otros: </span>
+                      <span>MVC, CRUD, Autenticación, Diseño Responsive</span>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div>
+                      <span class="cv-color-pri">Frameworks: </span>
+                      <span>ASP.NET Core, Entity Framework</span>
+                    </div>
+
+                    <div>
+                      <span class="cv-color-pri">Frontend: </span>
+                      <span>HTML, CSS</span>
+                    </div>
+                </div>
             </div>
         </div>
+    </section><!-- Cierre seccion Habilidades -->
+          
+    <section class="cv-espaciado cv-color-w">
+    
+      <h2 class="cv-upper-text cv-h2">Educación</h2>                      
+     
+      <div>        
+        <div>
+          <span class="cv-educacion">Tecnicatura en Programación</span><span class="cv-color-g"> — UTN En curso</span></div>                  
+        </div>
+      
+        <div class="cv-espaciado2">
+          <span class="cv-educacion">Técnico Superior en Análisis y Desarrollo de Sistemas</span>
+          <span class="cv-color-g"> — CENT 40</span>
+        </div>      
+      </div>
+      
+      <div >
+        <p class="cv-color-g cv-p">Cursos complementarios:</p>      
+          <span class="cv-badge-g">Desarrollo Web Full Stack - Udemy</span>
+          <span class="cv-badge-g">C# Nivel 1 y 2 - Maxiprograma</span>
+          <span class="cv-badge-g">UX/UI Design - Espacio UX</span>
+        </div>
+      </div>           
+      
     </section>
-    <footer class="cv-footer">          
-          <nav class="iconos" aria-label="Redes Sociales">
-            <a href="https://www.linkedin.com/in/emanuel-pei" target="_blank" class="icono" aria-label="LinkedIn de Emanuel Infante">                  
-              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <rect x="1" y="1" width="22" height="22" rx="2" ry="2" fill="none" stroke="currentColor" stroke-width="2"/>
-                <text x="50%" y="55%" text-anchor="middle" fill="currentColor" font-size="15" font-family="Arial, sans-serif" dy=".3em">in</text>
-              </svg>
-            </a>
-            <a href="https://github.com/ipEmanuel" target="_blank" class="icono" aria-label="GitHub de Emanuel Infante">                     
-              <svg fill="currentColor" class="w-5 h-5" viewBox="0 0 24 24" role="img">                  
-                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 
-                  3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 
-                  0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 
-                  18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 
-                  1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 
-                  3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 
-                  0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 
-                  3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 
-                  3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 
-                  3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 
-                  2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12">
-                </path>
-              </svg>       
-            </a>        
-            <div class="contenedor-copiar">
-              <button onclick="copiarEmail(this)" class="icono" title="Copiar email">
-                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M3 3h18c.552 0 1 .448 1 1v16c0 .552-.448 1-1 1H3c-.552 0-1-.448-1-1V4c0-.552.448-1 1-1z"/>
-                  <path d="M3 7l9 6 9-6"/>
-                </svg>
-              </button>
-              <div class="mensaje-copiado">copiado!</div>
-            </div>  
-            <a href="cv.html" target="_blank" class="icono">
-              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="12" cy="12" r="11" fill="none" stroke="currentColor" stroke-width="2"/>
-                <text x="50%" y="55%" text-anchor="middle" fill="currentColor" font-size="11" font-family="Arial, sans-serif" dy=".3em">CV</text>
-              </svg>              
-            </a>              
-            <a href="https://www.instagram.com/emanuel.inf/" target="_blank" class="icono">
-              <svg  viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Icono de Instagram">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                      d="M2 6C2 3.79086 3.79086 2 6 2H18C20.2091 2 22 3.79086 22 6V18C22 
-                         20.2091 20.2091 22 18 22H6C3.79086 22 2 20.2091 2 18V6ZM6 4C4.89543 4 
-                         4 4.89543 4 6V18C4 19.1046 4.89543 20 6 20H18C19.1046 20 20 19.1046 20 
-                         18V6C20 4.89543 19.1046 4 18 4H6ZM12 9C10.3431 9 9 10.3431 9 
-                         12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 
-                         12C15 10.3431 13.6569 9 12 9ZM7 12C7 9.23858 9.23858 7 12 7C14.7614 
-                         7 17 9.23858 17 12C17 14.7614 14.7614 17 12 17C9.23858 17 7 
-                         14.7614 7 12ZM17.5 8C18.3284 8 19 7.32843 19 6.5C19 5.67157 
-                         18.3284 5 17.5 5C16.6716 5 16 5.67157 16 6.5C16 7.32843 
-                         16.6716 8 17.5 8Z"/>
-              </svg> 
-            </a>
-          </nav>    
-        <p>Emanuel © 2025</p>
-    </footer>
+  </main>
+  <footer class="cv-footer">          
+      <nav class="iconos" aria-label="Redes Sociales">
+        <a href="https://www.linkedin.com/in/emanuel-pei" target="_blank" class="icono" aria-label="LinkedIn de Emanuel Infante">                  
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <rect x="1" y="1" width="22" height="22" rx="2" ry="2" fill="none" stroke="currentColor" stroke-width="2"/>
+            <text x="50%" y="55%" text-anchor="middle" fill="currentColor" font-size="15" font-family="Arial, sans-serif" dy=".3em">in</text>
+          </svg>
+        </a>
+        <a href="https://github.com/ipEmanuel" target="_blank" class="icono" aria-label="GitHub de Emanuel Infante">                     
+          <svg fill="currentColor" class="w-5 h-5" viewBox="0 0 24 24" role="img">                  
+            <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 
+              3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 
+              0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 
+              18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 
+              1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 
+              3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 
+              0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 
+              3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 
+              3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 
+              3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 
+              2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12">
+            </path>
+          </svg>       
+        </a>        
+        <div class="contenedor-copiar">
+          <button onclick="copiarEmail(this)" class="icono" title="Copiar email">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M3 3h18c.552 0 1 .448 1 1v16c0 .552-.448 1-1 1H3c-.552 0-1-.448-1-1V4c0-.552.448-1 1-1z"/>
+              <path d="M3 7l9 6 9-6"/>
+            </svg>
+          </button>
+          <div class="mensaje-copiado">copiado!</div>
+        </div>  
+        <a href="cv.html" target="_blank" class="icono">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="12" r="11" fill="none" stroke="currentColor" stroke-width="2"/>
+            <text x="50%" y="55%" text-anchor="middle" fill="currentColor" font-size="11" font-family="Arial, sans-serif" dy=".3em">CV</text>
+          </svg>              
+        </a>              
+        <a href="https://www.instagram.com/emanuel.inf/" target="_blank" class="icono">
+          <svg  viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Icono de Instagram">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M2 6C2 3.79086 3.79086 2 6 2H18C20.2091 2 22 3.79086 22 6V18C22 
+                      20.2091 20.2091 22 18 22H6C3.79086 22 2 20.2091 2 18V6ZM6 4C4.89543 4 
+                      4 4.89543 4 6V18C4 19.1046 4.89543 20 6 20H18C19.1046 20 20 19.1046 20 
+                      18V6C20 4.89543 19.1046 4 18 4H6ZM12 9C10.3431 9 9 10.3431 9 
+                      12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 
+                      12C15 10.3431 13.6569 9 12 9ZM7 12C7 9.23858 9.23858 7 12 7C14.7614 
+                      7 17 9.23858 17 12C17 14.7614 14.7614 17 12 17C9.23858 17 7 
+                      14.7614 7 12ZM17.5 8C18.3284 8 19 7.32843 19 6.5C19 5.67157 
+                      18.3284 5 17.5 5C16.6716 5 16 5.67157 16 6.5C16 7.32843 
+                      16.6716 8 17.5 8Z"/>
+          </svg> 
+        </a>
+      </nav>    
+      <p>Emanuel © 2025</p>
+  </footer>
 </body>
-    <script src="js/particles.min.js" ></script>
+    <!-- <script src="js/particles.min.js" ></script> -->
     <script src="js/app.js" ></script>
 </html>

@@ -112,7 +112,7 @@ particlesJS(
 )
 
 function copiarEmail(boton){
-  const email = "pei2688@gmail.com";
+  const email = "ema.inf.dev@gmail.com";
   navigator.clipboard.writeText(email)
     .then(()=>{
       boton.classList.add("copiado");
